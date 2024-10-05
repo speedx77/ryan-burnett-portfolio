@@ -15,7 +15,7 @@ body, html {
 
 .nav-animation {
     color: white;
-    opacity: 1;
+    font-weight: bold;
 }
 
 
@@ -32,6 +32,103 @@ body, html {
     transition: box-shadow .75s;
 
 }
+
+.link-button-right {
+    padding: 1px 6px;
+    border: 2px outset buttonborder;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: #F9F9E0;
+    text-decoration: none;
+    box-shadow: black -5px 7px;
+    display: flex;
+    justify-content: center;
+    transition: box-shadow .75s;
+
+}
+
+.skill-pill-odd {
+    height: 27px;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 175px;
+    box-shadow: #FF9EAA -3px 5px;
+    transition: box-shadow .75s;
+}
+
+.skill-pill-even {
+    height: 27px;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 175px;
+    box-shadow:  #3AA6B9 -3px 5px;
+    transition: box-shadow .75s;
+}
+
+.skill-pill-odd:hover {
+    box-shadow: #3AA6B9 -1.5px 2.5px;;
+}
+
+.skill-pill-even:hover {
+    box-shadow: #FF9EAA -1px 2.5px;;
+}
+
+
+.link-button:hover {
+
+    box-shadow: #FF9EAA 2.5px 3.5px;
+
+}
+
+.link-button-right:hover {
+
+    box-shadow: #FF9EAA -2.5px 3.5px;
+
+}
+
+#pfp:hover {
+    box-shadow: #3AA6B9 2.5px 3.5px;
+
+}
+
+.skill-pill-links {
+    text-decoration: none;
+    color: black
+}
+
+.skill-pill-odd .skill-pill-links:hover {
+    color: #3AA6B9
+}
+
+.skill-pill-even .skill-pill-links:hover {
+    color: #FF9EAA
+}
+
+
+
+/*
+#aws {
+    background-image: url('../assets/skill_pills/Amazon_Web_Services-Logo.png');
+    background-position: center;
+    background-size: contain;
+    height: 27px;
+}
+
+.skill-pill-container {
+    display: flex;
+}
+
+.info-pop {
+    height: 27px;
+    width: 75px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1.5px solid #3AA6B9;
+    border-radius: 175px;
+    box-shadow: #FF9EAA -3px 5px;
+}
+    */
 
 
 
@@ -88,16 +185,6 @@ body, html {
 
 
 
-.link-button:hover {
-
-    box-shadow: #FF9EAA 2.5px 3.5px;
-
-}
-
-#pfp:hover {
-    box-shadow: #3AA6B9 2.5px 3.5px;
-
-}
 
 #myVideo {
     right: 0;
@@ -147,6 +234,42 @@ body, html {
     background-image: url("../assets/rb.png");
 
   }
+
+
+  .engineering-card-left {
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
+        transition: .75s;
+        height: 512px;
+        width: 512px;
+  }
+
+  .engineering-card-right {
+    background-position: center;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 7px;
+    box-shadow: #FF9EAA 10px 10px;
+    transition: .75s;
+    height: 512px;
+    width: 512px;
+}
+
+#bigthoughts {
+    background-image: url("../assets/big_thoughts_blog.png");
+
+}
+
+#simonsays {
+    background-image: url("../assets/simon_says.png");
+
+}
+
+
+
 
 /* 
 

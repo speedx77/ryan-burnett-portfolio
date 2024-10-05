@@ -1,14 +1,13 @@
 $(".nav-animation").on("mouseover", function() {
     $(this).css({
         "color": "#FF9EAA",
-        "opacity": "1"
     });
 })
 
 $(".nav-animation").on("mouseout", function() {
     $(this).css({
         "color": "#FFFFFF",
-        "opacity": ".75"
+        "font-weight": "bold"
     })
 })
 
@@ -18,7 +17,35 @@ $("#pfp").on("mouseover", function () {
     })
 })
 
+$("#simonsays").on("mouseover", function() {
+    $(this).css({
+        "background-image" : "url('./assets/gifs/simonsaysgif.gif')"
+    })
+})
 
+$("#simonsays").on("mouseout", function() {
+    $(this).css({
+        "background-image" : "url('./assets/simon_says.png')"
+    })
+})
+
+
+
+/*
+$("#aws").on("mouseover", function () {
+    $(this).width("350px")
+    $(this).css("background-image", "url('')",)
+    $(this).html("  Amazon Web Service, used to host the website")
+    $(this).addClass("")
+})
+
+$("#aws").on("mouseout", function () {
+    $(this).css("background-image", "url('../assets/skill_pills/Amazon_Web_Services-Logo.png')",)
+    $(this).width("100px")
+    $(this).html("")
+})
+
+*/
 
 
 
