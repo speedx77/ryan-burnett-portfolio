@@ -167,7 +167,7 @@ footer {
 
 
     #keeb {
-        background-image: url("../assets/keeb.jpeg");
+        background-image: url("../assets/keeb.png");
         background-position: center;
         background-size: cover;
         border: 3px solid black;
@@ -196,7 +196,7 @@ footer {
 @media (min-width: 431px) {
 
     #keeb {
-        background-image: url("../assets/keeb.jpeg");
+        background-image: url("../assets/keeb.png");
         background-position: center;
         background-size: cover;
         border: 3px solid black;
@@ -226,7 +226,7 @@ footer {
 @media (min-width: 769px) {
 
     #keeb {
-        background-image: url("../assets/keeb.jpeg");
+        background-image: url("../assets/keeb.png");
         background-position: center;
         background-size: cover;
         border: 3px solid black;
