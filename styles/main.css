@@ -49,7 +49,6 @@ body, html {
 
 .skill-pill-odd {
     height: 27px;
-    width: auto;
     border: 2px solid black;
     border-radius: 175px;
     box-shadow: #FF9EAA -3px 5px;
@@ -58,7 +57,6 @@ body, html {
 
 .skill-pill-even {
     height: 27px;
-    width: auto;
     border: 2px solid black;
     border-radius: 175px;
     box-shadow:  #3AA6B9 -3px 5px;
@@ -184,8 +182,6 @@ body, html {
 
 
 
-
-
 #myVideo {
     right: 0;
     bottom: 0;
@@ -236,7 +232,68 @@ body, html {
   }
 
 
-  .engineering-card-left {
+
+
+    .engineering-card-left {
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
+        transition: .75s;
+        height: 128px;
+        width: 128px;
+        
+    }
+
+    .engineering-card-right {
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 128px;
+        width: 128px;
+    }
+
+
+
+
+
+  @media (min-width: 531px) {
+
+
+    .engineering-card-left {
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
+        transition: .75s;
+        height:256px;
+        width: 256px;
+        
+    }
+
+    .engineering-card-right {
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 256px;
+        width: 256px;
+    }
+
+}
+
+
+
+@media (min-width: 1201px) {
+
+    .engineering-card-left {
         background-position: center;
         background-size: cover;
         border: 3px solid black;
@@ -247,16 +304,20 @@ body, html {
         width: 512px;
   }
 
-  .engineering-card-right {
-    background-position: center;
-    background-size: cover;
-    border: 3px solid black;
-    border-radius: 7px;
-    box-shadow: #FF9EAA 10px 10px;
-    transition: .75s;
-    height: 512px;
-    width: 512px;
+    .engineering-card-right {
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 512px;
+        width: 512px;
+    }
+
+
 }
+
 
 #bigthoughts {
     background-image: url("../assets/big_thoughts_blog.png");

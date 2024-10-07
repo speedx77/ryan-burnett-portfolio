@@ -29,6 +29,20 @@ $("#simonsays").on("mouseout", function() {
     })
 })
 
+$("#bigthoughts").on("mouseover", function() {
+    $(this).css({
+        "background-image"  : "url('./assets/gifs/bigthoughtsgif.gif')"
+    })
+})
+
+$("#bigthoughts").on("mouseout", function() {
+    $(this).css({
+        "background-image"  : "url('./assets/big_thoughts_blog.png')"
+    })
+})
+
+
+
 
 
 /*
