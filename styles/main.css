@@ -49,10 +49,12 @@ body, html {
 
 .skill-pill-odd {
     height: 27px;
+    width: max-content;
     border: 2px solid black;
     border-radius: 175px;
     box-shadow: #FF9EAA -3px 5px;
     transition: box-shadow .75s;
+
 }
 
 .skill-pill-even {
@@ -100,6 +102,19 @@ body, html {
 
 .skill-pill-even .skill-pill-links:hover {
     color: #FF9EAA
+}
+
+.skill-pill-image{
+    height: 21.333px;
+    width: 30px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -327,6 +342,10 @@ body, html {
 #simonsays {
     background-image: url("../assets/simon_says.png");
 
+}
+
+#keebworld {
+    background-image: url("../assets/keebworld.png")
 }
 
 

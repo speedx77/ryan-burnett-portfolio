@@ -42,6 +42,18 @@ $("#bigthoughts").on("mouseout", function() {
 })
 
 
+$("#pfp").on("mouseover", function() {
+    $(this).css({
+        "background-image" : "url('./assets/gifs/pfpgif.gif')"
+    })
+})
+
+$("#pfp").on("mouseout", function() {
+    $(this).css({
+        "background-image" : "url('./assets/profilepic.jpg')"
+    })
+})
+
 
 
 
