@@ -112,6 +112,28 @@ body, html {
     background-repeat: no-repeat;
 }
 
+.cert-image {
+    height: 128px;
+    width: 128px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1200px) {
+
+    .cert-image {
+        height: 256px;
+        width: 256px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+}
+
+
+
 footer {
     display: flex;
     justify-content: center;
@@ -144,6 +166,17 @@ footer {
     */
 
 
+    #keeb {
+        background-image: url("../assets/keeb.jpeg");
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 75px;
+        width: 75px;
+    }
 
     #pfp {
         background-image: url("../assets/profilepic.jpg");
@@ -162,6 +195,18 @@ footer {
 
 @media (min-width: 431px) {
 
+    #keeb {
+        background-image: url("../assets/keeb.jpeg");
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 128px;
+        width: 128px;
+    }
+
     #pfp {
         background-image: url("../assets/profilepic.jpg");
         background-position: center;
@@ -179,6 +224,18 @@ footer {
 }
 
 @media (min-width: 769px) {
+
+    #keeb {
+        background-image: url("../assets/keeb.jpeg");
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 256px;
+        width: 256px;
+    }
 
     #pfp {
         background-image: url("../assets/profilepic.jpg");
@@ -348,6 +405,9 @@ footer {
     background-image: url("../assets/keebworld.png")
 }
 
+#finalmouse {
+    background-image: url("../assets/finalmouse.jpg")
+}
 
 
 
