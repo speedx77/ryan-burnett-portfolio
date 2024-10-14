@@ -19,9 +19,11 @@ body, html {
 }
 
 
+
 .link-button {
     padding: 1px 6px;
-    border: 2px outset buttonborder;
+    /* border: 2px outset buttonborder; */
+    border: 2px solid black;
     border-radius: 3px;
     color: buttontext;
     background-color: #F9F9E0;
@@ -35,7 +37,7 @@ body, html {
 
 .link-button-right {
     padding: 1px 6px;
-    border: 2px outset buttonborder;
+    border: 2px solid black;
     border-radius: 3px;
     color: buttontext;
     background-color: #F9F9E0;
@@ -332,7 +334,6 @@ footer {
 
 
 
-
   @media (min-width: 531px) {
 
 
@@ -389,6 +390,23 @@ footer {
 
 
 }
+
+
+.engineering-card-left:hover {
+    box-shadow: #3AA6B9 -5px 5px;
+
+}
+
+.engineering-card-right:hover {
+    box-shadow: #3AA6B9 5px 5px;
+
+}
+
+#keeb:hover {
+    box-shadow: #3AA6B9 5px 5px;
+
+}
+
 
 
 #bigthoughts {
