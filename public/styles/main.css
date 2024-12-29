@@ -252,6 +252,8 @@ footer {
     
     }
 
+    
+
 }
 
 
@@ -331,6 +333,32 @@ footer {
         width: 128px;
     }
 
+    #marquee-left {
+        background-image: url('../assets/gifs/musicroulettegif.gif');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
+        transition: .75s;
+        height: 128px;
+        width: 256px;
+    }
+
+    #marquee-right {
+        background-image: url('../assets/gifs/musicroulettegif.gif');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 128px;
+        width: 256px;
+    }
+
 
 
 
@@ -358,6 +386,32 @@ footer {
         transition: .75s;
         height: 256px;
         width: 256px;
+    }
+
+    #marquee-left {
+        background-image: url('../assets/gifs/musicroulettegif.gif');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
+        transition: .75s;
+        height: 256px;
+        width: 512px;
+    }
+
+    #marquee-right {
+        background-image: url('../assets/gifs/musicroulettegif.gif');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 256px;
+        width: 512px;
     }
 
 }
@@ -388,6 +442,32 @@ footer {
         width: 512px;
     }
 
+    #marquee-left {
+        background-image: url('../assets/gifs/musicroulettegif.gif');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
+        transition: .75s;
+        height: 512px;
+        width: 1024px;
+    }
+
+    #marquee-right {
+        background-image: url('../assets/gifs/musicroulettegif.gif');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 512px;
+        width: 1024px;
+    }
+
 
 }
 
@@ -408,6 +488,13 @@ footer {
 }
 
 
+#marquee-left:hover {
+    box-shadow: #3AA6B9 -5px 5px;
+}
+
+#marquee-right:hover {
+    box-shadow: #3AA6B9 5px 5px;
+}
 
 #bigthoughts {
     background-image: url("../assets/big_thoughts_blog.png");
