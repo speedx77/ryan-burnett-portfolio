@@ -347,7 +347,7 @@ footer {
     }
 
     #marquee-right {
-        background-image: url('../assets/gifs/musicroulettegif.gif');
+        background-image: url('../assets/gifs/wheretowatch.gif');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -402,7 +402,7 @@ footer {
     }
 
     #marquee-right {
-        background-image: url('../assets/gifs/musicroulettegif.gif');
+        background-image: url('../assets/gifs/wheretowatch.gif');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -456,7 +456,7 @@ footer {
     }
 
     #marquee-right {
-        background-image: url('../assets/gifs/musicroulettegif.gif');
+        background-image: url('../assets/gifs/wheretowatch.gif');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -514,6 +514,24 @@ footer {
     background-image: url("../assets/finalmouse.jpg")
 }
 
+#wheretowatchLogo {
+    height: 32px;
+    width: 32px;
+    background-image: url('../assets/wtw-logo-black.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#rouletteLogo {
+    height: 32px;
+    width: 32px;
+    background-image: url('../assets/logo-single-note.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
 /* 
