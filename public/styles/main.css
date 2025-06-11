@@ -1,0 +1,581 @@
+body, html {
+    background-color: #F9F9E0;
+    height: 100vh;
+}
+
+
+
+.nav-color{
+    background-color: #3AA6B9;
+}
+
+.border-color {
+    --bs-border-color: #FF9EAA;
+}
+
+.nav-animation {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+.link-button {
+    padding: 1px 6px;
+    /* border: 2px outset buttonborder; */
+    border: 2px solid black;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: #F9F9E0;
+    text-decoration: none;
+    box-shadow: black 5px 7px;
+    display: flex;
+    justify-content: center;
+    transition: box-shadow .75s;
+
+}
+
+.link-button-right {
+    padding: 1px 6px;
+    border: 2px solid black;
+    border-radius: 3px;
+    color: buttontext;
+    background-color: #F9F9E0;
+    text-decoration: none;
+    box-shadow: black -5px 7px;
+    display: flex;
+    justify-content: center;
+    transition: box-shadow .75s;
+
+}
+
+.skill-pill-odd {
+    height: 27px;
+    width: max-content;
+    border: 2px solid black;
+    border-radius: 175px;
+    box-shadow: #FF9EAA -3px 5px;
+    transition: box-shadow .75s;
+
+}
+
+.skill-pill-even {
+    height: 27px;
+    border: 2px solid black;
+    border-radius: 175px;
+    box-shadow:  #3AA6B9 -3px 5px;
+    transition: box-shadow .75s;
+}
+
+.skill-pill-odd:hover {
+    box-shadow: #3AA6B9 -1.5px 2.5px;;
+}
+
+.skill-pill-even:hover {
+    box-shadow: #FF9EAA -1px 2.5px;;
+}
+
+
+.link-button:hover {
+
+    box-shadow: #FF9EAA 2.5px 3.5px;
+
+}
+
+.link-button-right:hover {
+
+    box-shadow: #FF9EAA -2.5px 3.5px;
+
+}
+
+#pfp:hover {
+    box-shadow: #3AA6B9 2.5px 3.5px;
+
+}
+
+.skill-pill-links {
+    text-decoration: none;
+    color: black
+}
+
+.skill-pill-odd .skill-pill-links:hover {
+    color: #3AA6B9
+}
+
+.skill-pill-even .skill-pill-links:hover {
+    color: #FF9EAA
+}
+
+.skill-pill-image{
+    height: 21.333px;
+    width: 30px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cert-image {
+    height: 128px;
+    width: 128px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1200px) {
+
+    .cert-image {
+        height: 256px;
+        width: 256px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/*
+#aws {
+    background-image: url('../assets/skill_pills/Amazon_Web_Services-Logo.png');
+    background-position: center;
+    background-size: contain;
+    height: 27px;
+}
+
+.skill-pill-container {
+    display: flex;
+}
+
+.info-pop {
+    height: 27px;
+    width: 75px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1.5px solid #3AA6B9;
+    border-radius: 175px;
+    box-shadow: #FF9EAA -3px 5px;
+}
+    */
+
+
+    #keeb {
+        background-image: url("../assets/keeb.png");
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 75px;
+        width: 75px;
+    }
+
+    #pfp {
+        background-image: url("../assets/profilepic.jpg");
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 75px;
+        width: 75px;
+    
+    }
+
+
+
+@media (min-width: 431px) {
+
+    #keeb {
+        background-image: url("../assets/keeb.png");
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 128px;
+        width: 128px;
+    }
+
+    #pfp {
+        background-image: url("../assets/profilepic.jpg");
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 128px;
+        width: 128px;
+    
+    }
+
+
+}
+
+@media (min-width: 769px) {
+
+    #keeb {
+        background-image: url("../assets/keeb.png");
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 256px;
+        width: 256px;
+    }
+
+    #pfp {
+        background-image: url("../assets/profilepic.jpg");
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 256px;
+        width: 256px;
+    
+    }
+
+    
+
+}
+
+
+
+#myVideo {
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    background-image: url("../assets/mosHero.png");
+  
+    /* Set a specific height */
+    height: 60%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .hero-box {
+    background-color: rgba(255, 255, 255, .7);
+    position:absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 75%;
+  
+  }
+  
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    font-weight: 400;
+  }
+
+  .pfp:hover {
+
+    background-image: url("../assets/rb.png");
+
+  }
+
+
+
+
+    .engineering-card-left {
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
+        transition: .75s;
+        height: 128px;
+        width: 128px;
+        
+    }
+
+    .engineering-card-right {
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 128px;
+        width: 128px;
+    }
+
+    #marquee-left {
+        background-image: url('../assets/gifs/musicroulettegif.gif');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
+        transition: .75s;
+        height: 128px;
+        width: 256px;
+    }
+
+    #marquee-right {
+        background-image: url('../assets/gifs/wheretowatch.gif');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 128px;
+        width: 256px;
+    }
+
+
+
+
+  @media (min-width: 531px) {
+
+
+    .engineering-card-left {
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
+        transition: .75s;
+        height:256px;
+        width: 256px;
+        
+    }
+
+    .engineering-card-right {
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 256px;
+        width: 256px;
+    }
+
+    #marquee-left {
+        background-image: url('../assets/gifs/musicroulettegif.gif');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
+        transition: .75s;
+        height: 256px;
+        width: 512px;
+    }
+
+    #marquee-right {
+        background-image: url('../assets/gifs/wheretowatch.gif');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 256px;
+        width: 512px;
+    }
+
+}
+
+
+
+@media (min-width: 1201px) {
+
+    .engineering-card-left {
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
+        transition: .75s;
+        height: 512px;
+        width: 512px;
+  }
+
+    .engineering-card-right {
+        background-position: center;
+        background-size: cover;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 512px;
+        width: 512px;
+    }
+
+    #marquee-left {
+        background-image: url('../assets/gifs/musicroulettegif.gif');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
+        transition: .75s;
+        height: 512px;
+        width: 1024px;
+    }
+
+    #marquee-right {
+        background-image: url('../assets/gifs/wheretowatch.gif');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 512px;
+        width: 1024px;
+    }
+
+
+}
+
+
+.engineering-card-left:hover {
+    box-shadow: #3AA6B9 -5px 5px;
+
+}
+
+.engineering-card-right:hover {
+    box-shadow: #3AA6B9 5px 5px;
+
+}
+
+#keeb:hover {
+    box-shadow: #3AA6B9 5px 5px;
+
+}
+
+
+#marquee-left:hover {
+    box-shadow: #3AA6B9 -5px 5px;
+}
+
+#marquee-right:hover {
+    box-shadow: #3AA6B9 5px 5px;
+}
+
+#bigthoughts {
+    background-image: url("../assets/big_thoughts_blog.png");
+
+}
+
+#simonsays {
+    background-image: url("../assets/simon_says.png");
+
+}
+
+#keebworld {
+    background-image: url("../assets/keebworld.png")
+}
+
+#finalmouse {
+    background-image: url("../assets/finalmouse.jpg")
+}
+
+#wheretowatchLogo {
+    height: 32px;
+    width: 32px;
+    background-image: url('../assets/wtw-logo-black.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#rouletteLogo {
+    height: 32px;
+    width: 32px;
+    background-image: url('../assets/logo-single-note.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* 
+
+@keyframes boxShadow {
+    0% {
+        box-shadow: black 5px 7px;
+    }
+
+    100% {
+        box-shadow : #FF9EAA 2.5px 3.5px;
+
+    }
+}
+
+@keyframes reverseBoxShadow {
+
+    0% {
+        box-shadow : #FF9EAA 2.5px 3.5px;
+
+    }
+
+    100% {
+        box-shadow: black 5px 7px;
+    }
+
+    
+}
+
+    
+.box-shadow {
+    animation-name: boxShadow;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+.reverse-box-shadow {
+    animation-name: reverseBoxShadow;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+*/

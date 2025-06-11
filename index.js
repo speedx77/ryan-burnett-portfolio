@@ -1,99 +1,24 @@
-$(".nav-animation").on("mouseover", function() {
-    $(this).css({
-        "color": "#FF9EAA",
-    });
-})
-
-$(".nav-animation").on("mouseout", function() {
-    $(this).css({
-        "color": "#FFFFFF",
-        "font-weight": "bold"
-    })
-})
-
-$("#pfp").on("mouseover", function () {
-    $(this).attr({
-        "src" : "./assets/mosHero.png"
-    })
-})
-
-$("#simonsays").on("mouseover", function() {
-    $(this).css({
-        "background-image" : "url('./assets/gifs/simonsaysgif.gif')"
-    })
-})
-
-$("#simonsays").on("mouseout", function() {
-    $(this).css({
-        "background-image" : "url('./assets/simon_says.png')"
-    })
-})
-
-$("#bigthoughts").on("mouseover", function() {
-    $(this).css({
-        "background-image"  : "url('./assets/gifs/bigthoughtsgif.gif')"
-    })
-})
-
-$("#bigthoughts").on("mouseout", function() {
-    $(this).css({
-        "background-image"  : "url('./assets/big_thoughts_blog.png')"
-    })
-})
-
-
-$("#pfp").on("mouseover", function() {
-    $(this).css({
-        "background-image" : "url('./assets/gifs/pfpgif.gif')"
-    })
-})
-
-$("#pfp").on("mouseout", function() {
-    $(this).css({
-        "background-image" : "url('./assets/profilepic.jpg')"
-    })
-})
+import express from "express";
+import path from "path";
+import { fileURLToPath } from 'url';
 
 
 
+const app = express();
+const port = 3000;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-/*
-$("#aws").on("mouseover", function () {
-    $(this).width("350px")
-    $(this).css("background-image", "url('')",)
-    $(this).html("  Amazon Web Service, used to host the website")
-    $(this).addClass("")
-})
+app.use(express.static("./public"))
 
-$("#aws").on("mouseout", function () {
-    $(this).css("background-image", "url('../assets/skill_pills/Amazon_Web_Services-Logo.png')",)
-    $(this).width("100px")
-    $(this).html("")
-})
+app.get("/", (req,res) => {
+    res.sendFile("index.html");
+});
 
-*/
+app.all("*", (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/error.html'))
+});
 
-
-
-/*
-$(".link-button").on("mouseover", function() {
-    $(this).addClass("box-shadow");
-    /*
-    $(this).css({
-        "box-shadow" : "#FF9EAA 2.5px 3.5px"
-
-    })
-        
-
-})
-
-
-$(".link-button").on('mouseout', function(){    
-    $(this).addClass('reverse-box-shadow');
-    /*
-    $(this).css({
-        "box-shadow" : "black 5px 7px"
-    })
-        
-})
-*/
+app.listen(port, () => {
+    console.log(`Listening on port ${port}`);
+});
