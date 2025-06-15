@@ -1,28 +1,11 @@
-# RyanBurnettPortfolio
+# Ryan Burnett Portfolio
 Software Engineering and Art Portfolio - Ryan Burnett
 
-TO:DO
+https://www.ryanburnett.dev/
 
-Update Links
-fix link-button styles
-add colors to headers?
-alternate colors/directions on headers and every element
-add links to github/projects/tech stack skill pills
-about me section?
-contact me section with anchor tag?
-other engineering projects (list out things done at work app config project? testing automation suite?)
-Mr. Lonely Page? Embeded yt videos?
-writing section?
+![Website Cover](./public/assets/website-cover.png)
 
-finish up big thoughts big blog
-update local repo on aws server
+LinkedIn: https://www.linkedin.com/in/ryanburnett3449/
 
-fix formatting for mobile for simon says
+Resume: [Ryan Burnett Resume PDF](./public/Ryan%20Burnett%20Resume.pdf)
 
-finish finalmouse dpi change section
-do a gif for that
-
-create projects for testing automation
-
-
-host portfolio on actual aws/route53/namespace
