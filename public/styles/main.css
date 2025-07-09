@@ -359,6 +359,19 @@ footer {
         width: 256px;
     }
 
+    #marquee-spotify {
+        background-image: url('../assets/spotify-api-test-large.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
+        transition: .75s;
+        height: 128px;
+        width: 256px;
+    }
+
 
 
 
@@ -409,6 +422,19 @@ footer {
         border: 3px solid black;
         border-radius: 7px;
         box-shadow: #FF9EAA 10px 10px;
+        transition: .75s;
+        height: 256px;
+        width: 512px;
+    }
+
+    #marquee-spotify {
+        background-image: url('../assets/spotify-api-test-large.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
         transition: .75s;
         height: 256px;
         width: 512px;
@@ -468,6 +494,19 @@ footer {
         width: 1024px;
     }
 
+    #marquee-spotify {
+        background-image: url('../assets/spotify-api-test-large.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 3px solid black;
+        border-radius: 7px;
+        box-shadow: #FF9EAA -10px 10px;
+        transition: .75s;
+        height: 512px;
+        width: 1024px;
+    }
+
 
 }
 
@@ -496,6 +535,10 @@ footer {
     box-shadow: #3AA6B9 5px 5px;
 }
 
+#marquee-spotify:hover {
+    box-shadow: #3AA6B9 -5px 5px;
+}
+
 #bigthoughts {
     background-image: url("../assets/big_thoughts_blog.png");
 
@@ -512,6 +555,16 @@ footer {
 
 #finalmouse {
     background-image: url("../assets/finalmouse.jpg")
+}
+
+#spotifyApiLogo {
+    height: 32px;
+    width: 32px;
+    background-image: url('../assets/spotify-black.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 #wheretowatchLogo {
